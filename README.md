@@ -1,41 +1,41 @@
-# ImageSlider
+# Image Slider Web Page  
 
-This project is a simple, responsive image slider built with HTML, CSS, and JavaScript.
+##  Introduction  
+The **Image Slider Web Page** is a simple yet interactive web component that allows users to browse through a collection of images with smooth transitions. It enhances the visual appeal of a website and provides an engaging user experience.  
 
-Features
+##  Features  
+- **Responsive Design** – Works across all screen sizes.  
+- **Automatic Slideshow** – Images transition automatically.  
+- **Manual Navigation** – Users can switch slides using buttons.  
+- **Smooth Animations** – CSS and JavaScript for seamless effects.  
 
-Smooth sliding transitions between images.
+##  Technologies Used  
+- **HTML** – Structure of the webpage.  
+- **CSS** – Styling and animations.  
+- **JavaScript** – Controls the slider functionality.  
 
-Navigation buttons to switch slides.
+##  Project Structure  
+```
+img-slider-project/
+│── index.html       # Main HTML structure
+│── style.css        # Styles for the slider
+│── script.js        # JavaScript for slider functionality
+│── images/          # Folder containing images
+│    ├── img1.jpg
+│    ├── img2.jpg
+│    ├── img3.jpg
+│    ├── ...
+```
 
-Dots for quick navigation.
+##  How to Use  
+1. **Open the Website**: Visit [img-slider-pr.netlify.app](https://img-slider-pr.netlify.app) to view the live demo.  
+2. **Navigate Slides**: Use the **Next** and **Previous** buttons to change images.  
+3. **Watch Auto-Sliding**: Images transition automatically after a set interval.  
 
-Automatic sliding every 5 seconds.
+##  Customization  
+- **Change Images**: Replace images inside the `images/` folder.  
+- **Adjust Transition Speed**: Modify the interval in `script.js`.  
+- **Style Adjustments**: Update `style.css` for different colors, fonts, or layouts.  
 
-Keyboard navigation support.
-
-Hover effect to change heading color.
-
-Dynamic background color change.
-
-Files
-
-index.html: Structure of the slider.
-
-style.css: Styling for the slider and responsiveness.
-
-script.js: Functionality for sliding, navigation, and color effects.
-
-How to Run
-
-Download all files into the same folder.
-
-Open index.html in your browser.
-
-Customization
-
-Replace images in the assets folder and update the img tags in index.html.
-
-Adjust transition speed or slide duration in script.js.
-
-Modify colors and layout in style.css.
+##  License  
+This project is free to use and modify. 
